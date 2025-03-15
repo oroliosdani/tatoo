@@ -1,0 +1,37 @@
+{
+  "name": "tatoo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev  -H 0.0.0.0 -p 3001",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 3001",
+    
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^4.3.0",
+    "add": "^2.0.6",
+    "button": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.477.0",
+    "next": "15.2.1",
+    "npx": "^10.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-pdf": "^9.2.1",
+    "shadcn": "^2.4.0-canary.12",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "json-server": "^1.0.0-beta.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
